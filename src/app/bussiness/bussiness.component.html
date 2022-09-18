@@ -1,0 +1,25 @@
+<div class="container-fluid">
+
+    <h3>Business News</h3>
+    <div class="row">
+        <div *ngFor="let d of bussinessHeadingDisplay" class="col-lg-3 mb-3 box">
+
+            <div class="image" style="height: 180px;overflow: hidden;">
+                <img src="{{d.urlToImage}}" width="100%">
+            </div>
+
+
+            <div class="title" style="height: 120px;overflow: hidden;">
+                <h5 class="mt-2 mb-2" style="font-weight: bold;">{{d.title}}</h5>
+            </div>
+
+            <div style="height: 100px;overflow: hidden;">
+                <p>{{d.description}}</p>
+            </div>
+            <div class="link" style="height: 30px;">
+                <a target="_blank" href="{{d.url}}">Read more</a>
+            </div>
+
+        </div>
+    </div>
+</div>

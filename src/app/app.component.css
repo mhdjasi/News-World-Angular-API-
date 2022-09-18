@@ -1,0 +1,26 @@
+.head{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 2px;
+    
+}
+.head h2{
+    color: rgb(154, 0, 0);
+}
+.head h5{
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+.collapse{
+    justify-content: center;
+    
+}
+a{
+    color: blue;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+nav{
+    top: 80px;
+}
