@@ -21,6 +21,48 @@ a{
     margin-left: 60px;
     margin-right: 60px;
 }
-nav{
-    top: 80px;
+
+.navbar-toggler{
+    filter: invert();
+}
+
+.nav-link{
+    color: white;
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    nav{
+        top: 78px;
+    }
+    .head h2{
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .head h5{
+        word-spacing: 10px;
+        letter-spacing: 5px;
+        font-size: 17px;
+    }
+    
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    nav{
+        top: 90px;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1280px){
+    nav{
+        top: 75px;
+    }
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    nav{
+        top: 82px;
+    }
 }
